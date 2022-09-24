@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class GlobalExceptionHandler {
 
     @ExceptionHandler(ServiceException.class)
-    public Result<String> exceptionHandler(RuntimeException ex) {
+    public Result<String> exceptionHandler(ServiceException ex) {
         ex.printStackTrace();
         return Result.error(ex.getMessage());
     }

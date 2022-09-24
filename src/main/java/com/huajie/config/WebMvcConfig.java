@@ -11,7 +11,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupp
 import java.util.List;
 
 @Slf4j
-@Configuration
+//@Configuration
 public class WebMvcConfig extends WebMvcConfigurationSupport {
     //虚拟路径来映射文件的真实绝对路径(完美的隐藏了文件的真实物理路径，可以说不但很安全，而且外网可以直接访问)
 //    @Override
