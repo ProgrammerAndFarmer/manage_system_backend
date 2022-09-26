@@ -17,3 +17,7 @@ mybatis-plus:
   global-config:
     db-config:
       id-type: ASSIGN_ID
+
+files:
+  upload:
+    path: D:/code/JavaProject/manage_system/files/
